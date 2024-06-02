@@ -1,0 +1,18 @@
+.search-barber-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+.Serach-barber-card{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.search-button{
+  width: 30%;
+}
+.search-inputs input{
+  width: 80%;
+}

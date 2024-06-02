@@ -1,0 +1,131 @@
+/* Services.css */
+
+.services-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-bottom: 80px;
+}
+
+.services-tab,
+.service-time-tab,
+.display-services-tab {
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  display: flex;
+
+  align-items: center;
+  color: black;
+  text-align: start;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.time-picker {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.time-picker select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.service-tab-li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #070707;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.delete-btn,
+.edit-btn,
+.submit-btn,
+.next-btn,
+.cancel-btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.edit-btn,
+.cancel-btn {
+  background: #3498db;
+  color: white;
+}
+
+.edit-btn:hover,
+.cancel-btn:hover {
+  background: #2980b9;
+}
+
+.submit-btn,
+.next-btn {
+  background: #2ecc71;
+  color: white;
+}
+
+.submit-btn:hover,
+.next-btn:hover {
+  background: #27ae60;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .services-container {
+    padding: 10px;
+  }
+
+  form {
+    gap: 10px;
+  }
+
+  li {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .time-picker {
+    flex-direction: column;
+  }
+}

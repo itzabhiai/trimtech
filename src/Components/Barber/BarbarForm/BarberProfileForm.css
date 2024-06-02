@@ -1,0 +1,68 @@
+/* BarberProfileForm.css */
+.barber-profile-form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+.barber-profile-form h2 {
+  margin-bottom: 15px;
+}
+
+.barber-profile-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.barber-profile-form input[type="text"],
+.barber-profile-form input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.barber-profile-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.barber-profile-form button:hover {
+  background-color: #0056b3;
+}
+
+/* BarberProfile.css */
+.barber-profile-container {
+  margin: 20px;
+}
+
+.barber-profile-container h1 {
+  margin-bottom: 20px;
+}
+
+.profile-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+.profile-item img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-item h3 {
+  margin-top: 0;
+}
+
+.profile-item p {
+  margin: 5px 0;
+}
